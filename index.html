@@ -39,7 +39,7 @@
     </head>
     <body>
         <header role="banner">
-            <img src="images/four-seasons.gif" alt="Seasonal Logo Goes Here" class="flexible" id="logo" />
+            <img src="images/four.png" alt="Seasonal Logo Goes Here" class="flexible" id="logo" />
             <h1 class="masthead">Eddie Browser</h1>
             <nav>
                 <ul>
@@ -63,7 +63,7 @@
                 </ul>
             </p>
             <p>
-                <img src="images/300x400.png" alt="Season Wear Goes Here" id="wear" />
+                <img src="images/default.jpg" alt="Season Wear Goes Here" id="wear" />
             </p>
             <div class="springP">
                 <p>We used jQuery, to create a page that promotes a unique look and feel for each of the four seasons by changing a page in the 4 following areas:</p>
@@ -74,7 +74,7 @@
             </div>
             <footer>
                 <p><small>&copy; 2022 by 
-                    Aisha Abdirizal, All Rights Reserved ~ 
+                    Liya Hagos, All Rights Reserved ~ 
                     <a id="html-checker" href="#">Check HTML</a> ~ 
                     <a id="css-checker" href="#">Check CSS</a></small>
                 </p>
@@ -98,42 +98,42 @@
                 let season = $(this).attr("href");
 
                 if (season == "Default"){
-                    $("#logo").attr("src", "images/four-seasons.gif");
-                    $("#wear").attr("src", "images/300x400.png");
+                    $("#logo").attr("src", "images/four.png");
+                    $("#wear").attr("src", "images/default.jpg");
                     $("html").css("background-color", "#ccc");
                     $(".springP").html("We used jQuery, to create a page that promotes a unique look and feel for each of the four seasons by changing a page in the 4 following areas:<br><br>A unique color scheme<br><br>A unique logo<br><br>A unique item of clothing<br><br>A unique string of text identifying the season");
                     //alert("You clicked on the Default page, BORING!");
                 }
 
                 if (season == "Spring"){
-                    $("#logo").attr("src", "images/spring.gif");
-                    $("#wear").attr("src", "images/spring-wear.jpg");
+                    $("#logo").attr("src", "images/spr44.jpg");
+                    $("#wear").attr("src", "images/spr.webp");
                     $("html").css("background-color", "#2B7129");
-                    $(".springP").text("Spring is the best season! Dress to your liking");
+                    $(".springP").text("Spring adds new life and new beauty to all that is.");
                     //alert("It's getting a bit hotter outside!");
                 }
 
                 if (season == "Summer"){
-                    $("#logo").attr("src", "images/summer.gif");
-                    $("#wear").attr("src", "images/summer-wear.jpg");
+                    $("#logo").attr("src", "images/sum11.webp");
+                    $("#wear").attr("src", "images/summer.webp");
                     $("html").css("background-color", "#EBA52B");
-                    $(".springP").text("Suns out skins out make sure to stay cool this summer!");
+                    $(".springP").text("It was June, and the world smelled of roses.!");
                     //alert("Temperatures are higher than usual for obvious reasons!");
                 }
 
                 if (season == "Fall"){
-                    $("#logo").attr("src", "images/fall.gif");
-                    $("#wear").attr("src", "images/fall-wear.jpg");
+                    $("#logo").attr("src", "images/fall33.jfif");
+                    $("#wear").attr("src", "images/fall.jpg");
                     $("html").css("background-color", "#A81124");
-                    $(".springP").text("FALL-ing in love with our new fall coat!");
+                    $(".springP").text("Life starts all over again when it gets crisp in the fall.");
                     //alert("We're losing daylight, enjoy it while it lasts.");
                 }
 
                 if (season == "Winter"){
-                    $("#logo").attr("src", "images/winter.gif");
-                    $("#wear").attr("src", "images/winter-wear.jpg");
+                    $("#logo").attr("src", "images/win22.jpg");
+                    $("#wear").attr("src", "images/wint.webp");
                     $("html").css("background-color", "#005393");
-                    $(".springP").text("Winter freeze, make sure you get the COOLEST jacket on the market! and layer up!");
+                    $(".springP").text("Winter is a season of recovery and preparation.");
                     //alert("Wow, it's freezing.");
                 }                
               });
